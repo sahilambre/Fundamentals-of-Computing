@@ -113,5 +113,5 @@ def isEven(n):
     '''
     return n % 2 == 0
 
-print(customFilter(isEven, [1,2,3]))
+print(customFilter(isEven, [1,2,3,8]))
 
