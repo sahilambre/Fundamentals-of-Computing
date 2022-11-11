@@ -31,7 +31,7 @@ def spiral(L):
     
     return answer
 
-# print(spiral([[1,2,3],[4,5,6],[7,8,9]]))
+
 
 # Question 2: Write a dictionary inverter
 
@@ -45,12 +45,11 @@ def inverter(D):
             new_Dict[value] = key
     return new_Dict
 
-# print(inverter({1:'a', 2:'b'}))
-# print(inverter({1:'a', 2:'b', 3:'a'}))
+
 
 # Question 3: Matrix Multiplication
 
-def matrixMultiply(A, B):
+def matrixMultiply(A,B):
     assert len(A[0]) == len(B),'Incorrect Matrix Dimesions'
 
     ans = [[0 for X in range(len(B[0]))] 
@@ -63,11 +62,11 @@ def matrixMultiply(A, B):
 
     return ans
 
-# print(matrixMultiply([[1,2,3],[4,5,6]],[[1,2],[3,4], [5,6]]))
+
 
 # Question 4: Two Sum
 
-def twoSum(L, t):
+def twoSum(L,t):
     answer = []
     new_dict = {}
     
@@ -79,4 +78,3 @@ def twoSum(L, t):
 
     return answer
 
-# print(twoSum([1,2,3,4,4,3,4,5], 6))
