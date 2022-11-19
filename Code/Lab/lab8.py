@@ -33,6 +33,6 @@ class Time:
 s = Time(11,23)
 r = Time(23,51)
 q = Time(1,41)
-print(s)
-print(r)
+# print(s)
+# print(r)
 print(q)
