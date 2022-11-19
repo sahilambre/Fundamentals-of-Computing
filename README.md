@@ -1,3 +1,9 @@
 # CS 515 - Fundamentals-of-Computing
-### Stevens Institute of Technology 
-## Prof. Jared Bass
+## By Prof. Jared Bass
+## Stevens Institute of Technology 
+#### Fall 2022 (Semester 1)
+
+## 
+
+##### This repository contains all coding assignments and lab exercises 
+
