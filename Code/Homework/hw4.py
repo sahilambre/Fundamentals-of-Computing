@@ -34,7 +34,10 @@ class Time:
     # Question 3: Write an after noon function
 
     def isAfterNoon(self):
-        pass
+        if (self.hour > 12 and self.hour < 24) and (self.minute > 0 and self.minute < 60):
+            return True
+        else:
+            return False
 
     # Question 4: Write a before function
 
@@ -48,6 +51,13 @@ class Time:
     # Question 7: Create a different time apart function
 
   
+t1 = Time(11,21)
+t2 = Time(13,22)
+
+print(t1.isAfterNoon())
+print(t2.isAfterNoon())
+
+
 # t1 = Time(1,1)
 # t2 = Time(1,1)
 # t3 = Time(1,2)
