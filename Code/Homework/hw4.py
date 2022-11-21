@@ -41,6 +41,16 @@ class Time:
 
     # Question 4: Write a before function
 
+    def isBefore(self, d2):
+        if self.hour < d2.hour:
+            return True
+        if d2.hour == self.hour:
+            if self.minute < d2.minute:
+                return True
+            else:
+                return False
+        else:
+            return False
 
     # Question 5: Write a tick function
 
@@ -51,11 +61,11 @@ class Time:
     # Question 7: Create a different time apart function
 
   
-t1 = Time(11,21)
+t1 = Time(15,21)
 t2 = Time(13,22)
 
 print(t1.isAfterNoon())
-print(t2.isAfterNoon())
+print(t1.isBefore(t2))
 
 
 # t1 = Time(1,1)
